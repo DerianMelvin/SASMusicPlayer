@@ -8,7 +8,7 @@ Currently comes with 2 types of alignment (Left & Center) and a separate cover a
 Each part of the player (title, artist, bar, etc.) can be customized to your preferences _(up to a certain extent)_.
 
 The skin will load using the default values defined in the variables file, which can be accessed through the context menu and select `Edit Variables_[ALIGNMENT_TYPE].inc`.
-You can set the media player (for NowPlaying variant) and adjust cover art variables through the context menu as well.
+You can set the media player (for NowPlaying variant), adjust cover art variables and colors through the context menu as well.
 
 All variables are labeled into small groups/sections + comments to guide users on what each setting does.
 
@@ -61,3 +61,7 @@ _*After installing Spicetify, go to Advanced Usage -> Extensions -> Web Now Play
 
 ### v1.0
 - Initial Release
+
+### v1.1
+- Added color adjustments for each part of the player
+- Moved variables file into a folder
