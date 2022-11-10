@@ -14,12 +14,6 @@ DefaultFont=Quicksand
 ; Default font weight to use for all text (default: 400)
 DefaultFontWeight=400
 
-; Set skin color (R,G,B) (default: 255,255,255)
-ColorRGB=255,255,255
-
-; Set the skin's transparency/alpha value (default: 255)
-ColorAlpha=255
-
 ; Set the width of the overall skin (default: 500)
 ; Also adjust the values of some meters automatically
 DefaultWidth=500
@@ -257,9 +251,6 @@ BarHeight=8
 ; A multiplier that adjusts the roundness of the progress bar (default: 1)
 ; Set value to 0 to remove it
 BarRadius=1
-
-; Set the alpha value/transparency for the background bar (default: 30)
-BackgroundBarTransparency=30
 
 ; Position of the progress bar on the horizontal axis (default: 0)
 BarXOffset=0
