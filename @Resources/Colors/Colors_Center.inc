@@ -2,6 +2,15 @@
 
 ; NOTE: Remember to refresh the skin after saving your changes
 
+;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+;
+; CURRENTLY A WORK IN PROGRESS TO ADD USER INTERFACE ON FUTURE UPDATES
+; 
+; Other than improper variable names, most settings should work just fine.
+; Until improvements have been made, please proceed with caution.
+;
+;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ;---------------------------------
 ;------------ GENERAL ------------
 ;---------------------------------

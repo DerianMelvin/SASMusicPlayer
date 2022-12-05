@@ -26,7 +26,6 @@ DefaultStringCase=None
 ; 1. Artist
 ; 2. Album
 ; 3. Title
-; NOTE: Due to the way that all configs are being made with the default setup in mind, I suggest only change these values AFTER you have made all the necessary adjustments.
 
 Position1=Artist
 Position2=Album
@@ -48,17 +47,17 @@ Position3=Title
 ; Hides the player icon
 HidePlayerIcon=0
 
-; Hides song artist
-HideArtist=0
+; Hides track position 1 (default: Artist)
+HidePosition1=0
 
 ; Hides the separator
 HideSeparator=0
 
-; Hides song album/tag
-HideAlbum=0
+; Hides track position 2 (default: Album)
+HidePosition2=0
 
-; Hides song title
-HideSongTitle=0
+; Hides track position 3 (default: Title)
+HidePosition3=0
 
 ; Hides the line
 HideLine=0
@@ -67,10 +66,10 @@ HideLine=0
 HideProgressBar=0
 
 ; Hides song position
-HidePosition=0
+HideTrackPosition=0
 
 ; Hides song duration
-HideDuration=0
+HideTrackDuration=0
 
 ; Hides the music controls
 HideControls=0
@@ -92,66 +91,68 @@ PlayerIconXOffset=0
 PlayerIconYOffset=0
 
 ;---------------------------------
-;------------ ARTIST -------------
+;---------- POSITION 1 -----------
 ;---------------------------------
 
-; Set the font face to use for song artist (default: #DefaultFont#)
-FontFaceArtist=#DefaultFont#
+; Default: Artist
 
-; Font size for song artist (default: 13)
-FontSizeArtist=13
+; Set the font face to use for track position 1 (default: #DefaultFont#)
+Position1FontFace=#DefaultFont#
 
-; Font weight for song artist (default: #DefaultFontWeight#)
-FontWeightArtist=#DefaultFontWeight#
+; Font size for track position 1 (default: 13)
+Position1FontSize=13
 
-; Character spacing for song artist (default: 0)
-SongArtistCharSpacing=0
+; Font weight for track position 1 (default: #DefaultFontWeight#)
+Position1FontWeight=#DefaultFontWeight#
 
-; Set the casing style for song artist
+; Character spacing for track position 1 (default: 0)
+Position1CharSpacing=0
+
+; Set the casing style for track position 1 
 ; This will replace the casing defined in general settings
-SongArtistCase=
+Position1Case=None
 
-; The max. display length of song artist (default: 380)
+; The max. display length of track position 1 (default: 380)
 ; Text exceeding this width will be wrapped/clipped
-SongArtistWidth=380
+Position1Width=380
 
 ; A multiplier that controls the max. height of the meter to display the text (default: 1)
 ; Will display up to 1 line on the default font (large fonts or long text may require higher multiplier)
 ; Text exceeding the height will be clipped
-SongArtistClipHeightMultiplier=1
+Position1ClipHeightMultiplier=1
 
 ; A custom text to display when no music info is received or when the music player is not active (default: ???)
 ; Remove the text if you want nothing to be displayed
 ; For custom symbol or unicode character, I suggest reading more about it here: https://docs.rainmeter.net/manual/variables/character-variables/
-SongArtistSubstitute=???
+Position1Substitute=???
 
-; Position of song artist on the horizontal axis (default: 14)
-; Will move the horizontal position of album/tag automatically
-SongArtistXOffset=14
+; Position of track position 1 on the horizontal axis (default: 14)
+; Will move the horizontal position of track position 2 automatically
+Position1XOffset=14
 
-; Position of song artist on the vertical axis (default: 0)
+; Position of track position 1 on the vertical axis (default: 0)
 ; Will move the vertical position of other meters automatically
-SongArtistYOffset=0
+Position1YOffset=0
 
 ;---------------------------------
 ;----------- SEPARATOR -----------
 ;---------------------------------
 
 ; Set the font face to use for the separator (default: #DefaultFont#)
-FontFaceSeparator=#DefaultFont#
+SeparatorFontFace=#DefaultFont#
 
-; Font size for the separator (default: #FontSizeArtist#)
-FontSizeSeparator=#FontSizeArtist#
+; Font size for the separator (default: #Position1FontSize#)
+SeparatorFontSize=#Position1FontSize#
 
 ; Font weight for the separator (default: #DefaultFontWeight#)
-FontWeightSeparator=#DefaultFontWeight#
+SeparatorFontWeight=400
 
 ; Character spacing for the separator (default: 0)
 SeparatorCharSpacing=0
 
 ; Set the casing style for the separator
 ; This will replace the casing defined in general settings
-SeparatorCase=
+SeparatorCase=None
 
 ; The max. display length of the separator (default: 70)
 ; Text exceeding this width will be clipped
@@ -159,93 +160,97 @@ SeparatorWidth=70
 
 ; Set a text/character to use as separator (default: |)
 ; For custom symbol or unicode character, I suggest reading more about it here: https://docs.rainmeter.net/manual/variables/character-variables/
-DefaultSeparateText=|
+SeparatorText=|
 
-; Position/gap of the separator between artist & album/tag (default: 16)
-SeparateXOffset=16
+; Position/gap of the separator between track position 1 & 2 (default: 16)
+SeparatorXOffset=16
 
 ; Position of the separator on the vertical axis (default: 0)
-SeparateYOffset=0
+SeparatorYOffset=0
 
 ;---------------------------------
-;----------- ALBUM/TAG -----------
+;---------- POSITION 2 -----------
 ;---------------------------------
 
-; Set the font face to use for song album/tag (default: #DefaultFont#)
-FontFaceAlbum=#DefaultFont#
+; Default: Album
 
-; Font size for song album/tag (default: #FontSizeArtist#)
-FontSizeAlbum=#FontSizeArtist#
+; Set the font face to use for track position 2 (default: #DefaultFont#)
+Position2FontFace=#DefaultFont#
 
-; Font weight for song album/tag (default: #DefaultFontWeight#)
-FontWeightAlbum=#DefaultFontWeight#
+; Font size for track position 2 (default: #Position1FontSize#)
+Position2FontSize=#Position1FontSize#
 
-; Character spacing for song album/tag (default: 0)
-SongAlbumCharSpacing=0
+; Font weight for track position 2 (default: #DefaultFontWeight#)
+Position2FontWeight=#DefaultFontWeight#
 
-; Set the casing style for song album/tag
+; Character spacing for track position 2 (default: 0)
+Position2CharSpacing=0
+
+; Set the casing style for track position 2
 ; This will replace the casing defined in general settings
-SongAlbumCase=
+Position2Case=None
 
-; The max. display length of song album/tag (default: 380)
+; The max. display length of track position 2 (default: 380)
 ; Text exceeding this width will be wrapped/clipped
-SongAlbumWidth=380
+Position2Width=380
 
 ; A multiplier that controls the max. height of the meter to display the text (default: 1)
 ; Will display up to 1 line on the default font (large fonts or long text may require higher multiplier)
 ; Text exceeding the height will be clipped
-SongAlbumClipHeightMultiplier=1
+Position2ClipHeightMultiplier=1
 
 ; A custom text to display when no music info is received or when the music player is not active (default: ???)
 ; Remove the text if you want nothing to be displayed
 ; For custom symbol or unicode character, I suggest reading more about it here: https://docs.rainmeter.net/manual/variables/character-variables/
-SongAlbumSubstitute=???
+Position2Substitute=???
 
-; Position of song album on the horizontal axis (default: 0)
-SongAlbumXOffset=0
+; Position of track position 2 on the horizontal axis (default: 0)
+Position2XOffset=0
 
-; Position of song album on the vertical axis (default: 0)
-SongAlbumYOffset=0
+; Position of track position 2 on the vertical axis (default: 0)
+Position2YOffset=0
 
 ;---------------------------------
-;------------ TITLE --------------
+;---------- POSITION 3 -----------
 ;---------------------------------
 
-; Set the font face to use for song title (default: #DefaultFont#)
-FontFaceTitle=#DefaultFont#
+; Default: Title
 
-; Font size for song title (default: 23)
-FontSizeTitle=23
+; Set the font face to use for track position 3 (default: #DefaultFont#)
+Position3FontFace=#DefaultFont#
 
-; Font weight for song title (default: #DefaultFontWeight#)
-FontWeightTitle=#DefaultFontWeight#
+; Font size for track position 3 (default: 23)
+Position3FontSize=23
 
-; Character spacing for song title (default: 0)
-SongTitleCharSpacing=0
+; Font weight for track position 3 (default: #DefaultFontWeight#)
+Position3FontWeight=#DefaultFontWeight#
 
-; Set the casing style for song title
+; Character spacing for track position 3 (default: 0)
+Position3CharSpacing=0
+
+; Set the casing style for track position 3
 ; This will replace the casing defined in general settings
-SongTitleCase=
+Position3Case=None
 
-; The max. display length of song title (default: #DefaultWidth#)
+; The max. display length of track position 3 (default: #DefaultWidth#)
 ; Text exceeding this width will be wrapped/clipped
-SongTitleWidth=#DefaultWidth#
+Position3Width=#DefaultWidth#
 
 ; A multiplier that controls the max. height of the meter to display the text (default: 1.9)
 ; Will display up to 2 lines on the default font (large fonts or long text may require higher multiplier)
 ; Text exceeding the height will be clipped
-SongTitleClipHeightMultiplier=1.9
+Position3ClipHeightMultiplier=1.9
 
 ; A custom text to display when no music info is received or when the music player is not active (default: ???)
 ; Remove the text if you want nothing to be displayed
 ; For custom symbol or unicode character, I suggest reading more about it here: https://docs.rainmeter.net/manual/variables/character-variables/
-SongTitleSubstitute=???
+Position3Substitute=???
 
-; Position of song title on the horizontal axis (default: 0)
-SongTitleXOffset=0
+; Position of track position 3 on the horizontal axis (default: 0)
+Position3XOffset=0
 
-; Position of song title on the vertical axis (default: 4)
-SongTitleYOffset=4
+; Position of track position 3 on the vertical axis (default: 4)
+Position3YOffset=4
 
 ;---------------------------------
 ;------------- LINE --------------
@@ -288,59 +293,59 @@ BarXOffset=0
 BarYOffset=9
 
 ;---------------------------------
-;------ POSITION & DURATION ------
-;---------------------------------
-
-; Position of song position, duration & controls on the vertical axis (default: 9)
-ControlsAndDurationYOffset=9
-
-;---------------------------------
 ;----------- POSITION ------------
 ;---------------------------------
 
 ; Set the font face to use for song position (default: #DefaultFont#)
-FontFacePosition=#DefaultFont#
+TrackPositionFontFace=#DefaultFont#
 
 ; Font size for song position (default: 13)
-FontSizePosition=13
+TrackPositionFontSize=13
 
 ; Font weight for song position (default: #DefaultFontWeight#)
-FontWeightPosition=#DefaultFontWeight#
+TrackPositionFontWeight=#DefaultFontWeight#
 
 ; Character spacing for song position (default: 0)
-SongPositionCharSpacing=0
+TrackPositionCharSpacing=0
 
 ; Position of the song position on the horizontal axis (default: 0)
-PositionXOffset=0
+TrackPositionXOffset=0
+
+; Position of the song position on the vertical axis (default: 0)
+; Will move the vertical position of controls & duration automatically
+TrackPositionYOffset=9
 
 ;---------------------------------
 ;----------- DURATION ------------
 ;---------------------------------
 
-; Set the font face to use for song duration (default: #FontFacePosition#)
-FontFaceDuration=#FontFacePosition#
+; Set the font face to use for song duration (default: #TrackPositionFontFace#)
+TrackDurationFontFace=#TrackPositionFontFace#
 
-; Font size for song duration (default: #FontSizePosition#)
-FontSizeDuration=#FontSizePosition#
+; Font size for song duration (default: #TrackPositionFontSize#)
+TrackDurationFontSize=#TrackPositionFontSize#
 
-; Font weight for song duration (default: #FontWeightPosition#)
-FontWeightDuration=#FontWeightPosition#
+; Font weight for song duration (default: #TrackPositionFontWeight#)
+TrackDurationFontWeight=#TrackPositionFontWeight#
 
-; Character spacing for song duration (default: #SongPositionCharSpacing#)
-SongDurationCharSpacing=#SongPositionCharSpacing#
+; Character spacing for song duration (default: #TrackPositionCharSpacing#)
+TrackDurationCharSpacing=#TrackPositionCharSpacing#
 
 ; Position of the song duration on the horizontal axis (default: 0)
-DurationXOffset=0
+TrackDurationXOffset=0
+
+; Position of the song duration on the vertical axis (default: 0)
+TrackDurationYOffset=0
 
 ;---------------------------------
 ;----------- CONTROLS ------------
 ;---------------------------------
 
-; The image/button size for music controls (default: 30)
-NavButtonSize=30
+; The image/button size for music controls (default: 26)
+NavButtonSize=26
 
-; The gap between each image/button (default: 2)
-NavButtonGap=2
+; The gap between each image/button (default: 2.6)
+NavButtonGap=2.6
 
 ; Position of the controls on the horizontal axis (default: 0)
 ControlsXOffset=0

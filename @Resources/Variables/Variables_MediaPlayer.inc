@@ -7,7 +7,7 @@
 ;---------------------------------
 
 ; Set the media player to use
-DefaultPlayerName=
+DefaultPlayerName=CAD
 
 
 ; AIMP: AIMP
