@@ -71,3 +71,10 @@ _*After installing Spicetify, go to Advanced Usage -> Extensions -> Web Now Play
   - UI for colors in progress (variables file can still be edited)
 - Improved display quality on some icons
 - Various bug fixes and improvements
+
+### v1.2.1
+- UI: Fixed long input values from extending outside the skin border
+- UI: Adjusted skin load in settings to toggle
+- UI: Added a toggle to switch between different variants of alignment settings
+- UI: Adjusted settings width & height slightly
+- UI: Adjusted text and description on some settings
