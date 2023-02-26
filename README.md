@@ -26,19 +26,19 @@ _*After installing Spicetify, in the webpage, go to Advanced Usage -> Extensions
 ### Default
 
 <div align="center">
-  <img src="./Images/default_left.png" style="padding:12px 0px;" />
-  <img src="./Images/default_center.png" style="padding:12px 0px;" />
-  <img src="./Images/default_right.png" style="padding:12px 0px;" />
+  <img src="./Images/default_left.png" style="padding-top:20px; padding-bottom:30px;" />
+  <img src="./Images/default_center.png" style="padding-bottom:30px;" />
+  <img src="./Images/default_right.png" style="padding-bottom:15px;" />
 </div>
 
 ### Custom (examples)
 
 <div align="center">
-  <img src="./Images/example_1.png" style="padding:12px 0px;" />
-  <img src="./Images/example_2.png" style="padding:12px 0px;" />
-  <img src="./Images/example_3.png" style="padding:12px 0px;" />
-  <img src="./Images/example_4.png" style="padding:12px 0px;" />
-  <img src="./Images/example_5.png" style="padding:12px 0px;" />
+  <img src="./Images/example_1.png" style="padding-top:20px; padding-bottom:30px;" />
+  <img src="./Images/example_2.png" style="padding-bottom:30px;" />
+  <img src="./Images/example_3.png" style="padding-bottom:30px;" />
+  <img src="./Images/example_4.png" style="padding-bottom:30px;" />
+  <img src="./Images/example_5.png" style="padding-bottom:15px;" />
 </div>
  
 ## Additional Notes
