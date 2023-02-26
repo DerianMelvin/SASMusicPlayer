@@ -7,17 +7,14 @@
 ;---------------------------------
 
 ; Image size for the cover art (default: 160)
-CoverSize=160
+CoverSize=180
 
 ; A multiplier that adjusts the roundness of the cover art (default: 0.1)
 ; Set value to 1 to make it circle
 CoverRadius=0.1
 
-; Set the color to tint the cover image (R,G,B) (default: 255,255,255)
-CoverColorTint=255,255,255
-
-; Set the cover image transparency/alpha value (default: 255)
-CoverAlpha=255
+; Set the color to tint the cover image (R,G,B,A) (default: 255,255,255,255)
+CoverColorTint=255,255,255,255
 
 ; Make the cover image greyscaled (default: 0)
 ; Set value to 1 to enable
@@ -47,8 +44,5 @@ CoverImageFlip=None
 ; Will adjust position of cover art automatically
 BackgroundPadding=0
 
-; Set the background color (R,G,B) (default: 0,0,0)
-BackgroundColor=0,0,0
-
-; Set the background transparency/alpha value (default: 1)
-BackgroundAlpha=1
+; Set the background color (R,G,B,A) (default: 0,0,0,1)
+BackgroundColor=0,0,0,1

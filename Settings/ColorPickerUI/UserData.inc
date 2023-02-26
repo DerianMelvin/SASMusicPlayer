@@ -1,0 +1,11 @@
+[Variables]
+FilePath=C:\Users\Derian\Documents\Rainmeter\Skins\SASMusicPlayer\@Resources\\Colors\Colors_Left.inc
+ConfigName=SASMusicPlayer\Settings\Colors
+SectionName=Variables
+OptionName=PlayerIconColor
+Format=rgba
+PreviousColor=255,255,255,255
+ScriptMeasure=ColorPicker
+Theme=Dark
+Animations=2
+Active=0
