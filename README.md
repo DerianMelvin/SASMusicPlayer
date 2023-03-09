@@ -5,7 +5,7 @@
 
 ### A highly customizable music player that you can adjust and fine-tune to suit your desktop preferences.
 
-- Comes with 3 alignment types (Left, Center, Right) and a separate cover art, each having NowPlaying & [WebNowPlaying](https://github.com/tjhrulz/WebNowPlaying) variants.
+- Comes with 3 alignment types (Left, Center, Right) and a separate cover art, each having NowPlaying & [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Redux) variants.
 
 - Each part of the player (title, artist, progress bar, controls, etc.) can be customized to your preferences _(up to a certain extent)_.
 
@@ -16,10 +16,10 @@
 ## ⚠️ Requirements
 
 - [Rainmeter](https://www.rainmeter.net/)
-- WebNowPlaying browser extension: [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/webnowplaying-companion/) | [Chrome/Edge](https://chrome.google.com/webstore/detail/webnowplaying-companion/jfakgfcdgpghbbefmdfjkbdlibjgnbli)
-- Spicetify for spotify support **(desktop version)** - [Installation guide](https://spicetify.app/docs/getting-started)*
+- WebNowPlaying-Redux browser extension: [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/webnowplaying-redux/) | [Chrome/Edge](https://chrome.google.com/webstore/detail/webnowplaying-redux/jfakgfcdgpghbbefmdfjkbdlibjgnbli)
+- (Optional) Spicetify for Spotify support **(desktop version)** - [Installation guide](https://spicetify.app/docs/getting-started)*
 
-_*After installing Spicetify, in the webpage, go to Advanced Usage -> Extensions -> Web Now Playing section and follow the instructions_
+_*After installing Spicetify, in the webpage, go to Advanced Usage -> Extensions -> Web Now Playing section and follow the instructions to install it_
 
 ## 🖼️ Styles
 
@@ -46,7 +46,7 @@ _*After installing Spicetify, in the webpage, go to Advanced Usage -> Extensions
 
 ## 📝 Credits
 
-- [WebNowPlaying](https://github.com/tjhrulz/WebNowPlaying) by tjhrulz
+- [WebNowPlaying-Redux](https://github.com/keifufu/WebNowPlaying-Redux) by keifufu & tjhrulz
 - [CursorColor](https://forum.rainmeter.net/viewtopic.php?f=27&t=23375) by jsmorley
 - [Mouse.dll](https://github.com/NighthawkSLO/Mouse.dll) by NighthawkSLO
 - [ColorPickerUI](https://github.com/deathcrafter/ColorPickerUI) by deathcrafter
@@ -91,3 +91,10 @@ _*After installing Spicetify, in the webpage, go to Advanced Usage -> Extensions
   - Various bug fixes and improvements
 - Changed default skin font to Jost
 - Adjusted variables name & default values
+
+### v1.3.1
+
+- Updated WebNowPlaying to use the new WebNowPlaying-Redux
+- Added more player icons for supported websites
+- Optimized some .ini configs for UI settings
+- Minor fixes and improvements
