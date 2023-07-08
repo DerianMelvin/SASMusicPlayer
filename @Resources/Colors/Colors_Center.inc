@@ -12,12 +12,18 @@ ColorRGB=255,255,255
 ; Set overall skin color (R,G,B,A) (default: 255,255,255,255)
 ColorRGBA=255,255,255,255
 
+; Set overall text shadow/glow color (R,G,B,A) (default: 255,255,255,0)
+ColorShadowRGBA=255,255,255,0
+
 ;---------------------------------
 ;--------- TRACK INFO 1 ----------
 ;---------------------------------
 
 ; Set track info 1 color (default: #ColorRGBA#)
 Position1Color=#ColorRGBA#
+
+; Set track info 1 shadow/glow color (default: #ColorShadowRGBA#)
+Position1ShadowColor=#ColorShadowRGBA#
 
 ; ----- GRADIENT SETTINGS -----
 
@@ -46,6 +52,9 @@ PlayerIconColor=#ColorRGBA#
 ; Set track info 2 color (default: #ColorRGBA#)
 Position2Color=#ColorRGBA#
 
+; Set track info 2 shadow/glow color (default: #ColorShadowRGBA#)
+Position2ShadowColor=#ColorShadowRGBA#
+
 ; ----- GRADIENT SETTINGS -----
 
 Position2GradientDegrees=180
@@ -65,6 +74,9 @@ Position2Gradient3Percentage=1.0
 
 ; Set track info 3 color (default: #ColorRGBA#)
 Position3Color=#ColorRGBA#
+
+; Set track info 1 shadow/glow color (default: #ColorShadowRGBA#)
+Position3ShadowColor=#ColorShadowRGBA#
 
 ; ----- GRADIENT SETTINGS -----
 
@@ -146,6 +158,9 @@ BackgroundBarGradient3Percentage=1.0
 ; Set track position color (default: #ColorRGBA#)
 TrackPositionColor=#ColorRGBA#
 
+; Set track position shadow/glow color (default: #ColorShadowRGBA#)
+TrackPositionShadowColor=#ColorShadowRGBA#
+
 ; ----- GRADIENT SETTINGS -----
 
 TrackPositionGradientDegrees=180
@@ -165,6 +180,9 @@ TrackPositionGradient3Percentage=1.0
 
 ; Set track duration color (default: #ColorRGBA#)
 TrackDurationColor=#ColorRGBA#
+
+; Set track duration shadow/glow color (default: #ColorShadowRGBA#)
+TrackDurationShadowColor=#ColorShadowRGBA#
 
 ; ----- GRADIENT SETTINGS -----
 

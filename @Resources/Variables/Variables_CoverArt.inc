@@ -6,7 +6,7 @@
 ;------------ GENERAL ------------
 ;---------------------------------
 
-; Image size for the cover art (default: 160)
+; Image size for the cover art (default: 180)
 CoverSize=180
 
 ; A multiplier that adjusts the roundness of the cover art (default: 0.1)
@@ -23,12 +23,13 @@ CoverGreyscale=0
 ; Controls how the cover art should be displayed (default: 2)
 ; NOTE: Mostly useful for adjusting youtube cover art
 ; The following values can be used:
-; - 0 : Image scaled to fit. Ignore aspect ratio. 
+; - 0 : Image scaled to fit. Ignore aspect ratio.
 ; - 1 : Image scaled to fit. Preserve aspect ratio.
 ; - 2 : Image scaled & cropped. Preserve aspect ratio.
 CoverAspectRatio=2
 
 ; Rotates the cover image (default: 0 degrees)
+; NOTE: Cover radius won't work properly if the rotated degrees is not a multiplication of 90
 CoverImageRotate=0
 
 ; Flips the cover image (default: None)
@@ -39,8 +40,8 @@ CoverImageFlip=None
 ;---------- BACKGROUND -----------
 ;---------------------------------
 
-; Set the background size (default: 0)
-; Can be used as outline for the cover art (increase BackgroundAlpha value)
+; Set the cover art background padding (default: 0)
+; Can be used as outline for the cover art (increase background color alpha value)
 ; Will adjust position of cover art automatically
 BackgroundPadding=0
 

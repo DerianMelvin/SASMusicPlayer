@@ -9,7 +9,6 @@
 ; Default font face to use for all text (default: Jost)
 ; for custom font, place the .ttf / .otf file in @Resources\Fonts folder, then replace the value below with the font name (double click the file and check the name on the top left window)
 DefaultFont=Jost
-d
 
 ; Default font weight to use for all text (default: 300)
 DefaultFontWeight=300
@@ -135,6 +134,15 @@ Position1XOffset=14
 ; Will move the vertical position of other meters automatically
 Position1YOffset=0
 
+; Set the shadow blur amount for track info 1 (default: 3)
+Position1ShadowBlur=3
+
+; Position of track info 1 shadow on the horizontal axis (default: 0)
+Position1ShadowXOffset=0
+
+; Position of track info 1 shadow on the vertical axis (default: 0)
+Position1ShadowYOffset=0
+
 ;---------------------------------
 ;----------- SEPARATOR -----------
 ;---------------------------------
@@ -168,6 +176,15 @@ SeparatorXOffset=16
 
 ; Position of the separator on the vertical axis (default: 0)
 SeparatorYOffset=0
+
+; Set the shadow blur amount for separator (default: 3)
+SeparatorShadowBlur=3
+
+; Position of the separator shadow on the horizontal axis (default: 0)
+SeparatorShadowXOffset=0
+
+; Position of the separator shadow on the vertical axis (default: 0)
+SeparatorShadowYOffset=0
 
 ;---------------------------------
 ;--------- TRACK INFO 2 ----------
@@ -211,6 +228,15 @@ Position2XOffset=0
 ; Position of track info 2 on the vertical axis (default: 0)
 Position2YOffset=0
 
+; Set the shadow blur amount for track info 2 (default: 3)
+Position2ShadowBlur=3
+
+; Position of track info 2 shadow on the horizontal axis (default: 0)
+Position2ShadowXOffset=0
+
+; Position of track info 2 shadow on the vertical axis (default: 0)
+Position2ShadowYOffset=0
+
 ;---------------------------------
 ;--------- TRACK INFO 3 ----------
 ;---------------------------------
@@ -252,6 +278,15 @@ Position3XOffset=0
 
 ; Position of track info 3 on the vertical axis (default: 4)
 Position3YOffset=4
+
+; Set the shadow blur amount for track info 3 (default: 3)
+Position3ShadowBlur=3
+
+; Position of track info 3 shadow on the horizontal axis (default: 0)
+Position3ShadowXOffset=0
+
+; Position of track info 3 shadow on the vertical axis (default: 0)
+Position3ShadowYOffset=0
 
 ;---------------------------------
 ;------------- LINE --------------
@@ -316,6 +351,15 @@ TrackPositionXOffset=0
 ; Will move the vertical position of controls & duration automatically
 TrackPositionYOffset=5
 
+; Set the shadow blur amount for track position (default: 3)
+TrackPositionShadowBlur=3
+
+; Position of the track position shadow on the horizontal axis (default: 0)
+TrackPositionShadowXOffset=0
+
+; Position of the track position shadow on the vertical axis (default: 0)
+TrackPositionShadowYOffset=0
+
 ;---------------------------------
 ;-------- TRACK DURATION ---------
 ;---------------------------------
@@ -337,6 +381,15 @@ TrackDurationXOffset=0
 
 ; Position of the track duration on the vertical axis (default: 0)
 TrackDurationYOffset=0
+
+; Set the shadow blur amount for track duration (default: 3)
+TrackDurationShadowBlur=3
+
+; Position of the track duration shadow on the horizontal axis (default: 0)
+TrackDurationShadowXOffset=0
+
+; Position of the track duration shadow on the vertical axis (default: 0)
+TrackDurationShadowYOffset=0
 
 ;---------------------------------
 ;----------- CONTROLS ------------
