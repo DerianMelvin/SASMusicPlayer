@@ -21,6 +21,10 @@
 
 _*After installing Spicetify, in the webpage, go to Advanced Usage -> Extensions -> Web Now Playing section and follow the instructions to install it_
 
+## 📥 Download Skin
+
+### [Latest (v1.3.2)](https://github.com/DerianMelvin/SASMusicPlayer/releases/download/v1.3.2/S.A.S_MusicPlayer_1.3.2.rmskin) | [Release Page](https://github.com/DerianMelvin/SASMusicPlayer/releases)
+
 ## 🖼️ Styles
 
 ### Default
@@ -97,4 +101,12 @@ _*After installing Spicetify, in the webpage, go to Advanced Usage -> Extensions
 - Updated WebNowPlaying to use the new WebNowPlaying-Redux
 - Added more player icons for supported websites
 - Optimized some .ini configs for UI settings
+- Minor fixes and improvements
+
+### v1.3.2
+
+- Added shadow/glow adjustments to all text
+  - Adjusted position for certain UI settings to accommodate shadow/glow settings
+- Updated WNP-Redux plugin to v2.0.5
+- Adjusted some UI descriptions
 - Minor fixes and improvements
